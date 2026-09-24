@@ -1,6 +1,6 @@
 # Apress Source Code
 
-This repository accompanies [*%title%*](https://www.link.springer.com/book/10.1007/979-8-8688-3112-6) by Premkumar Rangarajan (Apress, 2026).
+This repository accompanies [*Enterprise Innovation at Scale with AWS AI Services*](https://www.link.springer.com/book/10.1007/979-8-8688-3112-6) by Premkumar Rangarajan (Apress, 2026).
 
 [comment]: #cover
 ![Cover image](979-8-8688-3111-9.jpg)
