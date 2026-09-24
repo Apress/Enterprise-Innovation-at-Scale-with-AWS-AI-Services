@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+  TableNameParameter:
+    Type: String
+    Default: accounts-payable-01
+    Description: Please enter a table name or you can leave the default selection as is
+  TopicNameParameter:
+    Type: String
+    Default: SendAlertsTopic
+    Description: Please provide a name for your Amazon SNS topic or you can leave the default selection as is
+  EmailAddressParameter:
+    Type: String
+    Description: Please enter a valid email address for alerts
+Resources:
+  myDynamoDBTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        -
+          AttributeName: "id"
+          AttributeType: "S"
+      KeySchema:
+        -
+          AttributeName: "id"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: "5"
+        WriteCapacityUnits: "5"
+      TableName:
+        Ref: TableNameParameter
+  mySNSTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      Subscription:
+        -
+          Endpoint:
+            Ref: EmailAddressParameter
+          Protocol: email
+      TopicName:
+        Ref: TopicNameParameter
+  myTableNameSSMParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: ddb_table_name
+      Type: String
+      Value:
+        Ref: TableNameParameter
+      Description: SSM Parameter that stores the DynamoDB table name
+  mySNSTopicSSMParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: sns_topic_name
+      Type: String
+      Value:
+        Ref: TopicNameParameter
+      Description: SSM Parameter that stores the SNS topic name for alerts

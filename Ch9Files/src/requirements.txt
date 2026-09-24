@@ -1,0 +1,45 @@
+# Chapter 9: Multi-Vendor Memory Search with Amazon Bedrock AgentCore
+# Multi-Agent Web Search — Python dependencies
+#
+# Install:
+#   pip install -r requirements.txt
+#   playwright install chromium
+#
+# Python 3.11+ recommended.
+
+# ── AWS SDK ───────────────────────────────────────────────────────────────────
+boto3>=1.35.0
+botocore>=1.35.0
+
+# ── Amazon Bedrock AgentCore ─────────────────────────────────────────────────
+# AgentCore SDK: Browser Tool session management and runtime client
+bedrock-agentcore>=0.1.0
+
+# Playwright: connects to the AgentCore-managed Chromium over WebSocket/CDP
+# (used by browser_session for direct Playwright automation)
+playwright>=1.48.0
+
+# Nova Act: AI-driven browser automation — drives the AgentCore browser via CDP
+# Obtain an API key at https://nova.amazon.com and set NOVA_ACT_API_KEY
+# Pinned to >=3.0 because the agent uses nova_act.asyncio.NovaAct, which is
+# only available on the v2+ async API.
+nova-act>=3.0.0
+
+# ── LangChain / LangGraph ────────────────────────────────────────────────────
+langchain>=1.2.14
+langchain-aws>=1.4.2
+langchain-core>=1.2.24
+
+# LangGraph: orchestration framework (StateGraph with Send fan-out)
+# Pinned to >=1.0 because langgraph-checkpoint-aws targets the 1.x API,
+# and a few APIs we use (notably the langgraph.types.Send signature) only
+# stabilized at the 1.0 release.
+langgraph>=1.0.0
+
+# AgentCore checkpointer for LangGraph state persistence
+# Provides AgentCoreMemorySaver (drop-in for MemorySaver)
+langgraph-checkpoint-aws>=0.1.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+typing-extensions>=4.9.0
+python-dotenv>=1.0.0    # loads .env for local development (silently skipped if absent)

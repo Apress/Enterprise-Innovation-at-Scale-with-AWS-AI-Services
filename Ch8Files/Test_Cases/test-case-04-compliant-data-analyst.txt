@@ -1,0 +1,80 @@
+JOB POSTING - DATA ANALYST
+Supertron LLC - San Francisco, CA (Hybrid)
+
+Position: Data Analyst
+Location: San Francisco, CA (Hybrid - 2 days/week in office, 3 days remote)
+Department: Analytics
+Reports To: Analytics Manager
+Job Type: Full-Time
+
+ABOUT THE ROLE:
+We're seeking a Data Analyst to join our Analytics team. In this role, you'll work with our business and engineering teams to analyze data, create reports, and identify insights that drive business decisions. You'll own the analytics for key metrics, collaborate cross-functionally, and help us understand how our product is performing.
+
+This is a growth opportunity to develop your analytical and communication skills while working on meaningful business problems.
+
+ESSENTIAL RESPONSIBILITIES:
+- Analyze sales and customer data to identify trends and patterns (40% of time)
+- Build dashboards and reports in Tableau to track key metrics (25% of time)
+- Present findings and recommendations to cross-functional teams (20% of time)
+- Investigate questions and ad-hoc requests from stakeholders (15% of time)
+
+REQUIRED QUALIFICATIONS:
+- Demonstrated experience with data analysis tools (SQL, Python, or equivalent)
+- Proficiency with at least one data visualization platform (Tableau, Power BI, or similar)
+- Strong analytical and problem-solving skills
+- Excellent communication skills - ability to explain technical concepts to non-technical audiences
+- Bachelor's degree in analytics, computer science, mathematics, engineering, or related field, OR equivalent professional experience
+
+PREFERRED QUALIFICATIONS:
+- Experience with AWS or cloud platforms
+- Background with Agile development methodologies
+- Knowledge of statistical analysis
+- Experience in SaaS or e-commerce analytics
+
+WHAT SUCCESS LOOKS LIKE:
+In your first 90 days, you'll understand our key metrics, have built your first dashboard, and be comfortable working independently on analysis projects. Within 6 months, you'll be a trusted resource for our business teams and have identified insights that improve decision-making.
+
+ABOUT YOU:
+- You're detail-oriented and take pride in accuracy
+- You communicate clearly with both technical and non-technical audiences
+- You're curious about data and ask good questions
+- You work well in a collaborative environment
+- You're organized and manage multiple projects simultaneously
+
+LOCATION & WORK ARRANGEMENT:
+This is a hybrid role based in San Francisco. You'll work in our office 2 days per week (Tuesdays and Wednesdays) for collaboration and team bonding. The other 3 days you'll work remotely from anywhere with reliable internet. If you need to work fully remote or have scheduling needs, we're open to discussing flexible arrangements.
+
+COMPENSATION & BENEFITS:
+Salary: $85,000 - $105,000 per year, depending on experience and qualifications
+
+Benefits include:
+- Comprehensive health insurance (medical, dental, vision)
+- 401(k) with 4% employer match
+- 20 days paid time off (PTO) + 10 company holidays
+- Flexible time off for sick days and personal appointments
+- $1,500 annual professional development budget
+- Free lunch every Friday
+- Parental leave (8 weeks paid)
+
+PROFESSIONAL DEVELOPMENT:
+We invest in our team's growth. You'll have access to learning resources, industry courses, and opportunities to present at team meetings. We encourage certification in tools like Tableau.
+
+EQUAL OPPORTUNITY STATEMENT:
+Supertron LLC is an Equal Opportunity Employer. We are committed to building a diverse and inclusive team and welcome applicants from all backgrounds. We provide reasonable accommodations for qualified individuals with disabilities throughout the recruitment process and on the job. If you need a reasonable accommodation to apply for or interview for this position, please contact our HR team at careers@supertron.com or call (415) 555-0100.
+
+APPLICATION PROCESS:
+To apply, please submit:
+1. Your resume (PDF or Word doc)
+2. A brief cover letter (1 page)
+3. A portfolio or examples of your work (optional but encouraged)
+
+You can apply online at careers.supertron.com/analyst or email materials to careers@supertron.com
+
+TIMELINE:
+- Applications reviewed on a rolling basis
+- Phone screen for qualified candidates (15-20 minutes)
+- Technical interview with analytics team (30 minutes)
+- Team meet & greet (30 minutes)
+- Offer stage
+
+We aim to complete the process within 2 weeks of your application.
